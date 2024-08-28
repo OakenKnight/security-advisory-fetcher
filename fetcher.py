@@ -33,11 +33,15 @@ if response.status_code == 200:
     advisories = response.json()
     for advisory in advisories:
         ghsa_id = advisory['ghsa_id']
+        title = advisory['summary']
+        vulnerabilities = advisory.get('vulnerabilities', [])
+        print(f"GHSA ID: {ghsa_id}")
+        print(f"Title: {title}")
+
         vulnerabilities = advisory.get('vulnerabilities', [])
         for vuln in vulnerabilities:
             version_range = vuln.get('vulnerable_version_range', 'N/A')
             patched = vuln.get('patched_versions', 'N/A')
-            print(f"GHSA ID: {ghsa_id}")
             print(f"  Vulnerable Version Range: {version_range}")
             print(f"  Patched Versions: {patched}")
             print("---")
