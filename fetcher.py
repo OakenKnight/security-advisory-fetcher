@@ -1,5 +1,6 @@
 import requests
 import os
+import argparse
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -10,12 +11,16 @@ token = os.getenv('GITHUB_TOKEN')
 
 
 # Replace with the repository details
-owner = 'CosmWasm'
-repo = 'wasmd'
+parser = argparse.ArgumentParser(description='Fetch security advisories for a GitHub repository.')
+parser.add_argument('owner', help='The owner of the repository')
+parser.add_argument('repo', help='The name of the repository')
+args = parser.parse_args()
+
+owner = args.owner
+repo = args.repo
 
 # GitHub API endpoint to search for issues with security labels
-# url = f'https://api.github.com/search/issues?q=repo:{owner}/{repo}+label:security'
-url = f'https://api.github.com/repos/CosmWasm/wasmd/security-advisories'
+url = f'https://api.github.com/repos/{owner}/{repo}/security-advisories'
 
 headers = {
     'Authorization': f'token {token}',
