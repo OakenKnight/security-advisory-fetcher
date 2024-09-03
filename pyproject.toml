@@ -2,7 +2,7 @@
 name = "security-advisory-fetcher"
 version = "0.1.0"
 description = ""
-authors = ["OakenKnight <aleksandarignjatijevic@informal.systems>"]
+authors = ["OakenKnight <aleksandarignjatijevic@informal.systems>", "0xZakk <zachary@informal.systems>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
