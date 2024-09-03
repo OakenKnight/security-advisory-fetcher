@@ -1,0 +1,6 @@
+CosmWasm,wasmd
+CosmWasm,wasmvm
+cosmos,ibc-go
+cosmos,cosmos-sdk
+cosmos,ibc-rs
+cometbft,cometbft

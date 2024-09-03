@@ -1,0 +1,306 @@
+[
+  {
+    "GHSA ID": "GHSA-fpgj-cr28-fvpx",
+    "Title": "CWA-2024-006: Non-deterministic module_query_safe query",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-fpgj-cr28-fvpx",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "0.52.0",
+        "Patched Versions": "0.53.0"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-g8w7-7vgg-x7xg",
+    "Title": "CWA-2024-005: Stackoverflow in wasmd",
+    "Severity": "high",
+    "Advisory URL": "https://github.com/advisories/GHSA-g8w7-7vgg-x7xg",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": ">= 0.50.0, < 0.53.0",
+        "Patched Versions": "0.53.0"
+      },
+      {
+        "Vulnerable Version Range": "< 0.46.0",
+        "Patched Versions": "0.46.0"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-m3rh-cvr5-x6q4",
+    "Title": "CWA-2024-003: Large address count in ValidateBasic",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-m3rh-cvr5-x6q4",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "< 0.52",
+        "Patched Versions": "0.52"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-rg2q-2jh9-447q",
+    "Title": "CWA-2024-004: Gas mispricing in cosmwasm-vm",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-rg2q-2jh9-447q",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": ">= 2.1.0, < 2.1.2",
+        "Patched Versions": "2.1.2"
+      },
+      {
+        "Vulnerable Version Range": ">= 2.0.0, < 2.0.3",
+        "Patched Versions": "2.0.3"
+      },
+      {
+        "Vulnerable Version Range": "< 1.5.4",
+        "Patched Versions": "1.5.4"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-j496-crgh-34mx",
+    "Title": "ASA-2024-007: Potential Reentrancy using Timeout Callbacks in ibc-hooks",
+    "Severity": "critical",
+    "Advisory URL": "https://github.com/advisories/GHSA-j496-crgh-34mx",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "< 4.6.0",
+        "Patched Versions": "4.6.0"
+      },
+      {
+        "Vulnerable Version Range": "< 5.4.0",
+        "Patched Versions": "5.4.0"
+      },
+      {
+        "Vulnerable Version Range": "< 6.3.0",
+        "Patched Versions": "6.3.0"
+      },
+      {
+        "Vulnerable Version Range": "< 7.4.0",
+        "Patched Versions": "7.4.0"
+      },
+      {
+        "Vulnerable Version Range": "< 8.2.0",
+        "Patched Versions": "8.2.0"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-95rx-m9m5-m94v",
+    "Title": "ASA-2024-006: ValidateVoteExtensions helper function may allow incorrect voting power assumptions",
+    "Severity": "high",
+    "Advisory URL": "https://github.com/advisories/GHSA-95rx-m9m5-m94v",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": ">= v0.50.x",
+        "Patched Versions": "0.50.5"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-2557-x9mg-76w8",
+    "Title": "ASA-2024-002: Default `PrepareProposalHandler` may produce invalid proposals when used with default `SenderNonceMempool`",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-2557-x9mg-76w8",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "<=0.50.3",
+        "Patched Versions": "0.50.4"
+      },
+      {
+        "Vulnerable Version Range": "<=0.47.8",
+        "Patched Versions": "0.47.9"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-4j93-fm92-rp4m",
+    "Title": "ASA-2024-003: Missing `BlockedAddressed` Validation in Vesting Module",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-4j93-fm92-rp4m",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "<=0.50.3",
+        "Patched Versions": "0.50.4"
+      },
+      {
+        "Vulnerable Version Range": "<=0.47.8",
+        "Patched Versions": "0.47.9"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-86h5-xcpx-cfqc",
+    "Title": "ASA-2024-005: Potential slashing evasion during re-delegation",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-86h5-xcpx-cfqc",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "<= 0.50.4",
+        "Patched Versions": "0.50.5"
+      },
+      {
+        "Vulnerable Version Range": "<= 0.47.9",
+        "Patched Versions": "0.47.10"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-23px-mw2p-46qm",
+    "Title": "ASA-2023-001: Cosmovisor",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-23px-mw2p-46qm",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "Cosmovisor < v1.0.0 (distributed with Cosmos SDK < 0.46)",
+        "Patched Versions": "versions of Cosmovisor greater than v. 1.0.0"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-j2cr-jc39-wpx5",
+    "Title": "Barberry Security Advisory - regarding x/auth periodic vesting accounts",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-j2cr-jc39-wpx5",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": ">= v0.46.0, <= v0.46.12",
+        "Patched Versions": "v0.46.13"
+      },
+      {
+        "Vulnerable Version Range": ">= v0.47.0, <= 0.47.2",
+        "Patched Versions": "v0.47.3"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-w5w5-2882-47pc",
+    "Title": "x/crisis does not charge ConstantFee",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-w5w5-2882-47pc",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "All versions",
+        "Patched Versions": "None"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-qfc5-6r3j-jj22",
+    "Title": "x/crisis does NOT cause chain halt",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-qfc5-6r3j-jj22",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "All versions",
+        "Patched Versions": "None"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-2p6r-37p9-89p2",
+    "Title": "Authz Module Non-Determinism",
+    "Severity": "high",
+    "Advisory URL": "https://github.com/advisories/GHSA-2p6r-37p9-89p2",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "0.44.x",
+        "Patched Versions": ""
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-g5xx-c4hv-9ccc",
+    "Title": "ASA-2024-009: State syncing validator from malicious node may lead to a chain split",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-g5xx-c4hv-9ccc",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": ">= 0.34.0, <= 0.34.33, >=0.37.0, <= 0.37.10, >= 0.38.0, <= 0.38.11",
+        "Patched Versions": "0.34.34, 0.37.11, 0.38.12"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-hg58-rf2h-6rr7",
+    "Title": "ASA-2024-008: Instability during blocksync when syncing from malicious peer",
+    "Severity": "medium",
+    "Advisory URL": "https://github.com/advisories/GHSA-hg58-rf2h-6rr7",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": ">=0.37.0, <= 0.37.6, >= 0.38.0, <= 0.38.7",
+        "Patched Versions": "0.37.7, 0.38.8"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-555p-m4v6-cqxv",
+    "Title": "ASA-2024-004: Default configuration param for Evidence may limit window of validity",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-555p-m4v6-cqxv",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "all",
+        "Patched Versions": ""
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-qr8r-m495-7hc4",
+    "Title": "ASA-2024-001: Validation of `VoteExtensionsEnableHeight` can cause chain halt",
+    "Severity": "high",
+    "Advisory URL": "https://github.com/advisories/GHSA-qr8r-m495-7hc4",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "0.38.0",
+        "Patched Versions": "0.38.3"
+      },
+      {
+        "Vulnerable Version Range": "0.38.1",
+        "Patched Versions": "0.38.3"
+      },
+      {
+        "Vulnerable Version Range": "0.38.2",
+        "Patched Versions": "0.38.3"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-hq58-p9mv-338c",
+    "Title": "ASA-2023-002: Default for `BlockParams.MaxBytes` consensus parameter may increase block times and affect consensus participation",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-hq58-p9mv-338c",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "All",
+        "Patched Versions": ""
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-w24w-wp77-qffm",
+    "Title": "Duplicate transactions in the mempool's data structures",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-w24w-wp77-qffm",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "v0.37.0, v0.37.1, < v0.34.28",
+        "Patched Versions": "v0.34.29, v0.37.2"
+      }
+    ]
+  },
+  {
+    "GHSA ID": "GHSA-mvj3-qrqh-cjvr",
+    "Title": "PeerState JSON serialization deadlock",
+    "Severity": "low",
+    "Advisory URL": "https://github.com/advisories/GHSA-mvj3-qrqh-cjvr",
+    "Vulnerabilities": [
+      {
+        "Vulnerable Version Range": "v0.34.28, v0.37.1",
+        "Patched Versions": "v0.34.29, v0.37.2"
+      }
+    ]
+  }
+]
