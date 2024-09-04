@@ -45,3 +45,14 @@ Example:
 ```shell
 poetry run python -m src.security_advisor.cli --github CosmWasm wasmd
 ```
+
+### For go.mod files
+
+```shell
+poetry run python -m src.security_advisor.cli --go-mod <path to file>
+```
+
+Example:
+```shell
+poetry run python -m src.security_advisor.cli --go-mod data/go.mod
+```

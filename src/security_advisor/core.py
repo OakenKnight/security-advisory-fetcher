@@ -13,7 +13,7 @@ def fetch_github_advisories(owner: str, repo: str) -> List[Dict]:
     if response.status_code == 200:
         return [extract_advisory_data(advisory) for advisory in response.json()]
     else:
-        raise Exception(f"Failed to fetch data: {response.status_code}, {response.text}")
+        raise Exception(f"Requested url: {url}; Failed to fetch data: {response.status_code}, {response.text}")
 
 def extract_advisory_data(advisory: Dict) -> Dict:
     ghsa_id = advisory['ghsa_id']

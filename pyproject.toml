@@ -11,13 +11,14 @@ python = "^3.12"
 requests = "^2.32.3"
 tqdm = "^4.62.3"
 python-dotenv = "^1.0.1"
+packaging = "^24.1"
 
 [tool.poetry.dev-dependencies]
 python = "^3.12"
 requests = "^2.32.3"
 tqdm = "^4.62.3"
 python-dotenv = "^1.0.1"
-
+packaging = "^24.1"
 
 [build-system]
 requires = ["poetry-core"]
