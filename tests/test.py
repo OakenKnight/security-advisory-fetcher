@@ -55,7 +55,7 @@ def main(args: List[str]):
         owner, repo = args
         process_single_repo(owner, repo)
     elif len(args) == 0:
-        process_csv_and_save_json("data/sources.csv", "data/out.json")
+        process_csv_and_save_json("../data/sources.csv", "../data/out1.json")
         print("Data saved to out.json")
     else:
         print("Usage: python fetch_github_data.py [owner repo]")

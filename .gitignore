@@ -1,2 +1,5 @@
 .env
 go_mod_files/*
+
+__pycache__/
+*.pyc

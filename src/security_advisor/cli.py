@@ -1,6 +1,6 @@
 import argparse
 from .core import fetch_github_advisories
-from .strategies.go_mod_strategy import GoModStrategy
+from .strategies import GoModStrategy
 
 def main():
     parser = argparse.ArgumentParser(description='Fetch security advisories for GitHub repositories or Go modules.')

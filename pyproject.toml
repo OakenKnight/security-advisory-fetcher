@@ -5,6 +5,7 @@ description = ""
 authors = ["OakenKnight <aleksandarignjatijevic@informal.systems>", "0xZakk <zachary@informal.systems>"]
 readme = "README.md"
 
+
 [tool.poetry.dependencies]
 python = "^3.12"
 requests = "^2.32.3"
@@ -17,6 +18,9 @@ requests = "^2.32.3"
 tqdm = "^4.62.3"
 python-dotenv = "^1.0.1"
 
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
