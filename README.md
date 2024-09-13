@@ -53,6 +53,15 @@ poetry run python -m src.security_advisor.cli --go-mod <path to file>
 ```
 
 Example:
+
 ```shell
 poetry run python -m src.security_advisor.cli --go-mod data/go.mod
 ```
+
+### For partners scan
+
+```shell
+poetry run python -m src.security_advisor.cli --partners-scan
+```
+
+This will fetch the go.mod files for all the partners in the data/partners.csv file and save them to go_mod_files directory. Then it will fetch the advisories for each go.mod file and save them to <go.mod file path>/all_mod_vulnerabilities.json

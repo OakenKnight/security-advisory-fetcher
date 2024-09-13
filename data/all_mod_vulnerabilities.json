@@ -2,6 +2,7 @@
   "github.com/CosmWasm/wasmd": [
     {
       "GHSA ID": "GHSA-fpgj-cr28-fvpx",
+      "Repository": "https://github.com/CosmWasm/wasmd",
       "Title": "CWA-2024-006: Non-deterministic module_query_safe query",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-fpgj-cr28-fvpx",
@@ -14,6 +15,7 @@
     },
     {
       "GHSA ID": "GHSA-g8w7-7vgg-x7xg",
+      "Repository": "https://github.com/CosmWasm/wasmd",
       "Title": "CWA-2024-005: Stackoverflow in wasmd",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-g8w7-7vgg-x7xg",
@@ -30,6 +32,7 @@
     },
     {
       "GHSA ID": "GHSA-m3rh-cvr5-x6q4",
+      "Repository": "https://github.com/CosmWasm/wasmd",
       "Title": "CWA-2024-003: Large address count in ValidateBasic",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-m3rh-cvr5-x6q4",
@@ -44,6 +47,7 @@
   "github.com/CosmWasm/wasmvm/v2": [
     {
       "GHSA ID": "GHSA-rg2q-2jh9-447q",
+      "Repository": "https://github.com/CosmWasm/wasmvm",
       "Title": "CWA-2024-004: Gas mispricing in cosmwasm-vm",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-rg2q-2jh9-447q",
@@ -66,6 +70,7 @@
   "github.com/cometbft/cometbft": [
     {
       "GHSA ID": "GHSA-g5xx-c4hv-9ccc",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "ASA-2024-009: State syncing validator from malicious node may lead to a chain split",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-g5xx-c4hv-9ccc",
@@ -78,6 +83,7 @@
     },
     {
       "GHSA ID": "GHSA-hg58-rf2h-6rr7",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "ASA-2024-008: Instability during blocksync when syncing from malicious peer",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-hg58-rf2h-6rr7",
@@ -90,6 +96,7 @@
     },
     {
       "GHSA ID": "GHSA-555p-m4v6-cqxv",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "ASA-2024-004: Default configuration param for Evidence may limit window of validity",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-555p-m4v6-cqxv",
@@ -102,6 +109,7 @@
     },
     {
       "GHSA ID": "GHSA-qr8r-m495-7hc4",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "ASA-2024-001: Validation of `VoteExtensionsEnableHeight` can cause chain halt",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-qr8r-m495-7hc4",
@@ -122,6 +130,7 @@
     },
     {
       "GHSA ID": "GHSA-hq58-p9mv-338c",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "ASA-2023-002: Default for `BlockParams.MaxBytes` consensus parameter may increase block times and affect consensus participation",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-hq58-p9mv-338c",
@@ -134,6 +143,7 @@
     },
     {
       "GHSA ID": "GHSA-w24w-wp77-qffm",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "Duplicate transactions in the mempool's data structures",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-w24w-wp77-qffm",
@@ -146,6 +156,7 @@
     },
     {
       "GHSA ID": "GHSA-mvj3-qrqh-cjvr",
+      "Repository": "https://github.com/cometbft/cometbft",
       "Title": "PeerState JSON serialization deadlock",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-mvj3-qrqh-cjvr",
@@ -160,6 +171,7 @@
   "github.com/cosmos/cosmos-sdk": [
     {
       "GHSA ID": "GHSA-95rx-m9m5-m94v",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "ASA-2024-006: ValidateVoteExtensions helper function may allow incorrect voting power assumptions",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-95rx-m9m5-m94v",
@@ -172,6 +184,7 @@
     },
     {
       "GHSA ID": "GHSA-2557-x9mg-76w8",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "ASA-2024-002: Default `PrepareProposalHandler` may produce invalid proposals when used with default `SenderNonceMempool`",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-2557-x9mg-76w8",
@@ -188,6 +201,7 @@
     },
     {
       "GHSA ID": "GHSA-4j93-fm92-rp4m",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "ASA-2024-003: Missing `BlockedAddressed` Validation in Vesting Module",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-4j93-fm92-rp4m",
@@ -204,6 +218,7 @@
     },
     {
       "GHSA ID": "GHSA-86h5-xcpx-cfqc",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "ASA-2024-005: Potential slashing evasion during re-delegation",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-86h5-xcpx-cfqc",
@@ -220,6 +235,7 @@
     },
     {
       "GHSA ID": "GHSA-23px-mw2p-46qm",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "ASA-2023-001: Cosmovisor",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-23px-mw2p-46qm",
@@ -232,6 +248,7 @@
     },
     {
       "GHSA ID": "GHSA-j2cr-jc39-wpx5",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "Barberry Security Advisory - regarding x/auth periodic vesting accounts",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-j2cr-jc39-wpx5",
@@ -248,6 +265,7 @@
     },
     {
       "GHSA ID": "GHSA-w5w5-2882-47pc",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "x/crisis does not charge ConstantFee",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-w5w5-2882-47pc",
@@ -260,6 +278,7 @@
     },
     {
       "GHSA ID": "GHSA-qfc5-6r3j-jj22",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "x/crisis does NOT cause chain halt",
       "Severity": "low",
       "Advisory URL": "https://github.com/advisories/GHSA-qfc5-6r3j-jj22",
@@ -272,6 +291,7 @@
     },
     {
       "GHSA ID": "GHSA-2p6r-37p9-89p2",
+      "Repository": "https://github.com/cosmos/cosmos-sdk",
       "Title": "Authz Module Non-Determinism",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-2p6r-37p9-89p2",
@@ -286,6 +306,7 @@
   "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v8": [
     {
       "GHSA ID": "GHSA-v8p4-qhq4-f7h8",
+      "Repository": "https://github.com/cosmos/ibc-apps",
       "Title": "Timeout or acknowledgement error of forwarded transactions involving multi-wrapped IBC assets could result in discrepancy between escrow account balance and total supply of the asset on the counterparty chain",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-v8p4-qhq4-f7h8",
@@ -298,6 +319,7 @@
     },
     {
       "GHSA ID": "GHSA-q7m9-jcqg-g9pq",
+      "Repository": "https://github.com/cosmos/ibc-apps",
       "Title": "PigeonFall \ud83d\udc26",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-q7m9-jcqg-g9pq",
@@ -310,6 +332,7 @@
     },
     {
       "GHSA ID": "GHSA-w6rp-vxj2-fjhr",
+      "Repository": "https://github.com/cosmos/ibc-apps",
       "Title": "ViperStrike",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-w6rp-vxj2-fjhr",
@@ -324,6 +347,7 @@
   "github.com/cosmos/ibc-go/modules/capability": [
     {
       "GHSA ID": "GHSA-j496-crgh-34mx",
+      "Repository": "https://github.com/cosmos/ibc-go",
       "Title": "ASA-2024-007: Potential Reentrancy using Timeout Callbacks in ibc-hooks",
       "Severity": "critical",
       "Advisory URL": "https://github.com/advisories/GHSA-j496-crgh-34mx",
@@ -354,6 +378,7 @@
   "github.com/cosmos/ibc-go/v8": [
     {
       "GHSA ID": "GHSA-j496-crgh-34mx",
+      "Repository": "https://github.com/cosmos/ibc-go",
       "Title": "ASA-2024-007: Potential Reentrancy using Timeout Callbacks in ibc-hooks",
       "Severity": "critical",
       "Advisory URL": "https://github.com/advisories/GHSA-j496-crgh-34mx",
@@ -381,9 +406,25 @@
       ]
     }
   ],
+  "github.com/cosmos/interchain-security/v5": [
+    {
+      "GHSA ID": "GHSA-7q74-g774-7x3g",
+      "Repository": "https://github.com/cosmos/interchain-security",
+      "Title": "ICS-2024-002: The signers of ICS messages do not need to match the provider address ",
+      "Severity": "high",
+      "Advisory URL": "https://github.com/advisories/GHSA-7q74-g774-7x3g",
+      "Vulnerabilities": [
+        {
+          "Vulnerable Version Range": "v5.1.x",
+          "Patched Versions": "v5.2.0"
+        }
+      ]
+    }
+  ],
   "github.com/prometheus/client_golang": [
     {
       "GHSA ID": "GHSA-cg3q-j54f-5p7p",
+      "Repository": "https://github.com/prometheus/client_golang",
       "Title": "InstrumentHandler* HTTP middleware prone to DoS through method label cardinality",
       "Severity": "medium",
       "Advisory URL": "https://github.com/advisories/GHSA-cg3q-j54f-5p7p",
@@ -398,6 +439,7 @@
   "github.com/gorilla/websocket": [
     {
       "GHSA ID": "GHSA-jf24-p9p9-4rjh",
+      "Repository": "https://github.com/gorilla/websocket",
       "Title": "Potential DoS Vector in gorilla/websocket <= v1.4.0",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-jf24-p9p9-4rjh",
@@ -412,6 +454,7 @@
   "github.com/ulikunitz/xz": [
     {
       "GHSA ID": "GHSA-25xm-hr59-7c27",
+      "Repository": "https://github.com/ulikunitz/xz",
       "Title": "Release v0.5.8 fixes readUvarint denial of service",
       "Severity": "high",
       "Advisory URL": "https://github.com/advisories/GHSA-25xm-hr59-7c27",
